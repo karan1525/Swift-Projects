@@ -21,6 +21,11 @@ class ViewController: UIViewController {
         // Each button is tag -> sender.tag
         // Map all buttons to 1 function
         
+        playSound()
+    }
+    
+    func playSound() {
+
         let url = Bundle.main.url(forResource: "note1", withExtension: "wav")!
         
         do {
@@ -33,6 +38,5 @@ class ViewController: UIViewController {
         } catch let error {
             print(error)
         }
-        
     }
 }
