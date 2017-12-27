@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Dicee
 //
-//  Created by Karan Bhargava on 12/27/17.
+//  Created by Karan Bhargava on 12/26/17.
 //  Copyright © 2017 Karan Bhargava. All rights reserved.
 //
 
