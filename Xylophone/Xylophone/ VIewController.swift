@@ -22,15 +22,13 @@ class ViewController: UIViewController {
         // Each button is tag -> sender.tag
         // Map all buttons to 1 function
         
-        let selectedSoundFileName: String = soundArr[sender.tag - 1]
-        print(selectedSoundFileName)
-        
-        playSound()
+        let selectedSoundFileName: String = soundArr[sender.tag - 1]        
+        playSound(selectedFile: selectedSoundFileName)
     }
     
-    func playSound() {
+    func playSound(selectedFile: String) {
 
-        let url = Bundle.main.url(forResource: "note1", withExtension: "wav")!
+        let url = Bundle.main.url(forResource: selectedFile, withExtension: "wav")!
         
         do {
             player = try AVAudioPlayer(contentsOf: url)
