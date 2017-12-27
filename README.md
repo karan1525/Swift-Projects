@@ -1,6 +1,4 @@
 # Swift-Projects
-A repository for Swift 4, CoreML, ARKit, etc
-
 
 Swift                      |  ARKit
 :-------------------------:|:-------------------------:
